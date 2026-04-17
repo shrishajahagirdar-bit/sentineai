@@ -1,0 +1,650 @@
+{
+  "4876:127.0.0.1:57103:127.0.0.1:57104:ESTABLISHED": {
+    "pid": 4876,
+    "local_ip": "127.0.0.1",
+    "local_port": 57103,
+    "remote_ip": "127.0.0.1",
+    "remote_port": 57104,
+    "status": "ESTABLISHED"
+  },
+  "1372:0.0.0.0:49664::0:LISTEN": {
+    "pid": 1372,
+    "local_ip": "0.0.0.0",
+    "local_port": 49664,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "0:172.22.137.141:57916:192.178.211.84:443:TIME_WAIT": {
+    "pid": 0,
+    "local_ip": "172.22.137.141",
+    "local_port": 57916,
+    "remote_ip": "192.178.211.84",
+    "remote_port": 443,
+    "status": "TIME_WAIT"
+  },
+  "1812:127.0.0.1:64390::0:LISTEN": {
+    "pid": 1812,
+    "local_ip": "127.0.0.1",
+    "local_port": 64390,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "1344:0.0.0.0:49670::0:LISTEN": {
+    "pid": 1344,
+    "local_ip": "0.0.0.0",
+    "local_port": 49670,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "9744:::1:1900::0:NONE": {
+    "pid": 9744,
+    "local_ip": "::1",
+    "local_port": 1900,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "19552:172.22.137.141:64015:104.18.32.47:443:ESTABLISHED": {
+    "pid": 19552,
+    "local_ip": "172.22.137.141",
+    "local_port": 64015,
+    "remote_ip": "104.18.32.47",
+    "remote_port": 443,
+    "status": "ESTABLISHED"
+  },
+  "19552:172.22.137.141:64697:104.18.32.47:443:ESTABLISHED": {
+    "pid": 19552,
+    "local_ip": "172.22.137.141",
+    "local_port": 64697,
+    "remote_ip": "104.18.32.47",
+    "remote_port": 443,
+    "status": "ESTABLISHED"
+  },
+  "3156::::5355::0:NONE": {
+    "pid": 3156,
+    "local_ip": "::",
+    "local_port": 5355,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "9744:127.0.0.1:1900::0:NONE": {
+    "pid": 9744,
+    "local_ip": "127.0.0.1",
+    "local_port": 1900,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "11120:0.0.0.0:5050::0:NONE": {
+    "pid": 11120,
+    "local_ip": "0.0.0.0",
+    "local_port": 5050,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "9744:172.22.137.141:1900::0:NONE": {
+    "pid": 9744,
+    "local_ip": "172.22.137.141",
+    "local_port": 1900,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "0:172.22.137.141:54638:52.191.219.104:443:TIME_WAIT": {
+    "pid": 0,
+    "local_ip": "172.22.137.141",
+    "local_port": 54638,
+    "remote_ip": "52.191.219.104",
+    "remote_port": 443,
+    "status": "TIME_WAIT"
+  },
+  "11120:0.0.0.0:5040::0:LISTEN": {
+    "pid": 11120,
+    "local_ip": "0.0.0.0",
+    "local_port": 5040,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "3084:172.22.137.141:49560:4.213.25.242:443:ESTABLISHED": {
+    "pid": 3084,
+    "local_ip": "172.22.137.141",
+    "local_port": 49560,
+    "remote_ip": "4.213.25.242",
+    "remote_port": 443,
+    "status": "ESTABLISHED"
+  },
+  "4:172.22.137.141:137::0:NONE": {
+    "pid": 4,
+    "local_ip": "172.22.137.141",
+    "local_port": 137,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "12476:0.0.0.0:60970::0:NONE": {
+    "pid": 12476,
+    "local_ip": "0.0.0.0",
+    "local_port": 60970,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "18884:172.22.137.141:54643:20.190.145.143:443:ESTABLISHED": {
+    "pid": 18884,
+    "local_ip": "172.22.137.141",
+    "local_port": 54643,
+    "remote_ip": "20.190.145.143",
+    "remote_port": 443,
+    "status": "ESTABLISHED"
+  },
+  "4876:127.0.0.1:57104:127.0.0.1:57103:ESTABLISHED": {
+    "pid": 4876,
+    "local_ip": "127.0.0.1",
+    "local_port": 57104,
+    "remote_ip": "127.0.0.1",
+    "remote_port": 57103,
+    "status": "ESTABLISHED"
+  },
+  "9744:::1:62583::0:NONE": {
+    "pid": 9744,
+    "local_ip": "::1",
+    "local_port": 62583,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "19988:0.0.0.0:8501::0:LISTEN": {
+    "pid": 19988,
+    "local_ip": "0.0.0.0",
+    "local_port": 8501,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "9744:fe80::6212:82af:bbda:5424:1900::0:NONE": {
+    "pid": 9744,
+    "local_ip": "fe80::6212:82af:bbda:5424",
+    "local_port": 1900,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "4692:127.0.0.1:9080::0:LISTEN": {
+    "pid": 4692,
+    "local_ip": "127.0.0.1",
+    "local_port": 9080,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "4644:127.0.0.1:49664::0:NONE": {
+    "pid": 4644,
+    "local_ip": "127.0.0.1",
+    "local_port": 49664,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "4868:172.22.137.141:57883:172.64.145.54:443:CLOSE_WAIT": {
+    "pid": 4868,
+    "local_ip": "172.22.137.141",
+    "local_port": 57883,
+    "remote_ip": "172.64.145.54",
+    "remote_port": 443,
+    "status": "CLOSE_WAIT"
+  },
+  "4876:127.0.0.1:58268:127.0.0.1:58269:ESTABLISHED": {
+    "pid": 4876,
+    "local_ip": "127.0.0.1",
+    "local_port": 58268,
+    "remote_ip": "127.0.0.1",
+    "remote_port": 58269,
+    "status": "ESTABLISHED"
+  },
+  "4628:::1:49669::0:LISTEN": {
+    "pid": 4628,
+    "local_ip": "::1",
+    "local_port": 49669,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "13680:172.22.137.141:54642:40.99.8.226:443:ESTABLISHED": {
+    "pid": 13680,
+    "local_ip": "172.22.137.141",
+    "local_port": 54642,
+    "remote_ip": "40.99.8.226",
+    "remote_port": 443,
+    "status": "ESTABLISHED"
+  },
+  "19816:127.0.0.1:52910::0:LISTEN": {
+    "pid": 19816,
+    "local_ip": "127.0.0.1",
+    "local_port": 52910,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "9744:172.22.137.141:62584::0:NONE": {
+    "pid": 9744,
+    "local_ip": "172.22.137.141",
+    "local_port": 62584,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "1640::::135::0:LISTEN": {
+    "pid": 1640,
+    "local_ip": "::",
+    "local_port": 135,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "19816:127.0.0.1:52910:127.0.0.1:54640:ESTABLISHED": {
+    "pid": 19816,
+    "local_ip": "127.0.0.1",
+    "local_port": 52910,
+    "remote_ip": "127.0.0.1",
+    "remote_port": 54640,
+    "status": "ESTABLISHED"
+  },
+  "19988:127.0.0.1:58273:127.0.0.1:58272:ESTABLISHED": {
+    "pid": 19988,
+    "local_ip": "127.0.0.1",
+    "local_port": 58273,
+    "remote_ip": "127.0.0.1",
+    "remote_port": 58272,
+    "status": "ESTABLISHED"
+  },
+  "3220:0.0.0.0:49666::0:LISTEN": {
+    "pid": 3220,
+    "local_ip": "0.0.0.0",
+    "local_port": 49666,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "4708:172.22.137.141:49709:4.213.25.241:443:ESTABLISHED": {
+    "pid": 4708,
+    "local_ip": "172.22.137.141",
+    "local_port": 49709,
+    "remote_ip": "4.213.25.241",
+    "remote_port": 443,
+    "status": "ESTABLISHED"
+  },
+  "12476::::5353::0:NONE": {
+    "pid": 12476,
+    "local_ip": "::",
+    "local_port": 5353,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "12476:172.22.137.141:61398:64.233.170.188:5228:ESTABLISHED": {
+    "pid": 12476,
+    "local_ip": "172.22.137.141",
+    "local_port": 61398,
+    "remote_ip": "64.233.170.188",
+    "remote_port": 5228,
+    "status": "ESTABLISHED"
+  },
+  "4260::::49668::0:LISTEN": {
+    "pid": 4260,
+    "local_ip": "::",
+    "local_port": 49668,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "13692:::1:49751:::1:8501:ESTABLISHED": {
+    "pid": 13692,
+    "local_ip": "::1",
+    "local_port": 49751,
+    "remote_ip": "::1",
+    "remote_port": 8501,
+    "status": "ESTABLISHED"
+  },
+  "3220::::49666::0:LISTEN": {
+    "pid": 3220,
+    "local_ip": "::",
+    "local_port": 49666,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "12476:0.0.0.0:5353::0:NONE": {
+    "pid": 12476,
+    "local_ip": "0.0.0.0",
+    "local_port": 5353,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "4:172.22.137.141:138::0:NONE": {
+    "pid": 4,
+    "local_ip": "172.22.137.141",
+    "local_port": 138,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "13156:0.0.0.0:7680::0:LISTEN": {
+    "pid": 13156,
+    "local_ip": "0.0.0.0",
+    "local_port": 7680,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "19988:::1:8501:::1:49751:ESTABLISHED": {
+    "pid": 19988,
+    "local_ip": "::1",
+    "local_port": 8501,
+    "remote_ip": "::1",
+    "remote_port": 49751,
+    "status": "ESTABLISHED"
+  },
+  "1268::::49665::0:LISTEN": {
+    "pid": 1268,
+    "local_ip": "::",
+    "local_port": 49665,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "0:172.22.137.141:54637:199.232.214.172:80:TIME_WAIT": {
+    "pid": 0,
+    "local_ip": "172.22.137.141",
+    "local_port": 54637,
+    "remote_ip": "199.232.214.172",
+    "remote_port": 80,
+    "status": "TIME_WAIT"
+  },
+  "12440:172.22.137.141:63036:52.168.117.168:443:ESTABLISHED": {
+    "pid": 12440,
+    "local_ip": "172.22.137.141",
+    "local_port": 63036,
+    "remote_ip": "52.168.117.168",
+    "remote_port": 443,
+    "status": "ESTABLISHED"
+  },
+  "16672::::5353::0:NONE": {
+    "pid": 16672,
+    "local_ip": "::",
+    "local_port": 5353,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "4::::445::0:LISTEN": {
+    "pid": 4,
+    "local_ip": "::",
+    "local_port": 445,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "16672:0.0.0.0:5353::0:NONE": {
+    "pid": 16672,
+    "local_ip": "0.0.0.0",
+    "local_port": 5353,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "13156::::7680::0:LISTEN": {
+    "pid": 13156,
+    "local_ip": "::",
+    "local_port": 7680,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "3156:0.0.0.0:5353::0:NONE": {
+    "pid": 3156,
+    "local_ip": "0.0.0.0",
+    "local_port": 5353,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "13692:0.0.0.0:61171::0:NONE": {
+    "pid": 13692,
+    "local_ip": "0.0.0.0",
+    "local_port": 61171,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "3600:0.0.0.0:49667::0:LISTEN": {
+    "pid": 3600,
+    "local_ip": "0.0.0.0",
+    "local_port": 49667,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "12900:0.0.0.0:5353::0:NONE": {
+    "pid": 12900,
+    "local_ip": "0.0.0.0",
+    "local_port": 5353,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "4876:172.22.137.141:58270:13.204.106.34:443:ESTABLISHED": {
+    "pid": 4876,
+    "local_ip": "172.22.137.141",
+    "local_port": 58270,
+    "remote_ip": "13.204.106.34",
+    "remote_port": 443,
+    "status": "ESTABLISHED"
+  },
+  "19988::::8501::0:LISTEN": {
+    "pid": 19988,
+    "local_ip": "::",
+    "local_port": 8501,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "19988:127.0.0.1:58272:127.0.0.1:58273:ESTABLISHED": {
+    "pid": 19988,
+    "local_ip": "127.0.0.1",
+    "local_port": 58272,
+    "remote_ip": "127.0.0.1",
+    "remote_port": 58273,
+    "status": "ESTABLISHED"
+  },
+  "0:127.0.0.1:58267:127.0.0.1:52910:TIME_WAIT": {
+    "pid": 0,
+    "local_ip": "127.0.0.1",
+    "local_port": 58267,
+    "remote_ip": "127.0.0.1",
+    "remote_port": 52910,
+    "status": "TIME_WAIT"
+  },
+  "4260:0.0.0.0:49668::0:LISTEN": {
+    "pid": 4260,
+    "local_ip": "0.0.0.0",
+    "local_port": 49668,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "3600::::49667::0:LISTEN": {
+    "pid": 3600,
+    "local_ip": "::",
+    "local_port": 49667,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "9744:127.0.0.1:62585::0:NONE": {
+    "pid": 9744,
+    "local_ip": "127.0.0.1",
+    "local_port": 62585,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "4:172.22.137.141:139::0:LISTEN": {
+    "pid": 4,
+    "local_ip": "172.22.137.141",
+    "local_port": 139,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "1268:0.0.0.0:49665::0:LISTEN": {
+    "pid": 1268,
+    "local_ip": "0.0.0.0",
+    "local_port": 49665,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "9744:fe80::6212:82af:bbda:5424:62582::0:NONE": {
+    "pid": 9744,
+    "local_ip": "fe80::6212:82af:bbda:5424",
+    "local_port": 62582,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "1372::::49664::0:LISTEN": {
+    "pid": 1372,
+    "local_ip": "::",
+    "local_port": 49664,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "12476:172.22.137.141:58962:172.64.148.235:443:ESTABLISHED": {
+    "pid": 12476,
+    "local_ip": "172.22.137.141",
+    "local_port": 58962,
+    "remote_ip": "172.64.148.235",
+    "remote_port": 443,
+    "status": "ESTABLISHED"
+  },
+  "12476:0.0.0.0:56602::0:NONE": {
+    "pid": 12476,
+    "local_ip": "0.0.0.0",
+    "local_port": 56602,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "13692:172.22.137.141:60348:150.171.110.81:443:ESTABLISHED": {
+    "pid": 13692,
+    "local_ip": "172.22.137.141",
+    "local_port": 60348,
+    "remote_ip": "150.171.110.81",
+    "remote_port": 443,
+    "status": "ESTABLISHED"
+  },
+  "1640:0.0.0.0:135::0:LISTEN": {
+    "pid": 1640,
+    "local_ip": "0.0.0.0",
+    "local_port": 135,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "4876:127.0.0.1:58269:127.0.0.1:58268:ESTABLISHED": {
+    "pid": 4876,
+    "local_ip": "127.0.0.1",
+    "local_port": 58269,
+    "remote_ip": "127.0.0.1",
+    "remote_port": 58268,
+    "status": "ESTABLISHED"
+  },
+  "3156::::5353::0:NONE": {
+    "pid": 3156,
+    "local_ip": "::",
+    "local_port": 5353,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "3156:0.0.0.0:5355::0:NONE": {
+    "pid": 3156,
+    "local_ip": "0.0.0.0",
+    "local_port": 5355,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "4868:172.22.137.141:57884:104.18.36.61:443:CLOSE_WAIT": {
+    "pid": 4868,
+    "local_ip": "172.22.137.141",
+    "local_port": 57884,
+    "remote_ip": "104.18.36.61",
+    "remote_port": 443,
+    "status": "CLOSE_WAIT"
+  },
+  "12476:0.0.0.0:63021::0:NONE": {
+    "pid": 12476,
+    "local_ip": "0.0.0.0",
+    "local_port": 63021,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "1812:127.0.0.1:54640:127.0.0.1:52910:ESTABLISHED": {
+    "pid": 1812,
+    "local_ip": "127.0.0.1",
+    "local_port": 54640,
+    "remote_ip": "127.0.0.1",
+    "remote_port": 52910,
+    "status": "ESTABLISHED"
+  },
+  "12900::::5353::0:NONE": {
+    "pid": 12900,
+    "local_ip": "::",
+    "local_port": 5353,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "NONE"
+  },
+  "1344::::49670::0:LISTEN": {
+    "pid": 1344,
+    "local_ip": "::",
+    "local_port": 49670,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  },
+  "4876:172.22.137.141:57105:3.111.241.224:443:CLOSE_WAIT": {
+    "pid": 4876,
+    "local_ip": "172.22.137.141",
+    "local_port": 57105,
+    "remote_ip": "3.111.241.224",
+    "remote_port": 443,
+    "status": "CLOSE_WAIT"
+  },
+  "13692:172.22.137.141:51029:172.188.155.25:443:ESTABLISHED": {
+    "pid": 13692,
+    "local_ip": "172.22.137.141",
+    "local_port": 51029,
+    "remote_ip": "172.188.155.25",
+    "remote_port": 443,
+    "status": "ESTABLISHED"
+  },
+  "4:0.0.0.0:445::0:LISTEN": {
+    "pid": 4,
+    "local_ip": "0.0.0.0",
+    "local_port": 445,
+    "remote_ip": "",
+    "remote_port": 0,
+    "status": "LISTEN"
+  }
+}

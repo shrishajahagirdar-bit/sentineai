@@ -1,0 +1,115 @@
+{
+  "system": {
+    "login_time_patterns": {
+      "17": 1.0
+    },
+    "process_usage_patterns": [],
+    "file_access_patterns": [
+      [
+        "c:\\users\\shrisha\\desktop\\hyd_3\\storage\\events\\telemetry.jsonl",
+        38251
+      ],
+      [
+        "c:\\users\\shrisha\\desktop\\hyd_3\\storage\\incidents\\incidents.jsonl",
+        28292
+      ],
+      [
+        "c:\\users\\shrisha\\desktop\\hyd_3\\collector\\state\\eventlog_offsets.json",
+        4
+      ],
+      [
+        "c:\\users\\shrisha\\desktop\\hyd_3\\collector\\state\\process_snapshot.json",
+        4
+      ],
+      [
+        "c:\\users\\shrisha\\desktop\\hyd_3\\collector\\state\\network_snapshot.json",
+        4
+      ],
+      [
+        "c:\\users\\shrisha\\desktop\\hyd_3\\.venv\\lib\\site-packages\\tornado\\speedups.pyd",
+        2
+      ],
+      [
+        "c:\\users\\shrisha\\desktop\\hyd_3\\.venv\\lib\\site-packages\\pil\\_imaging.cp312-win_amd64.pyd",
+        2
+      ],
+      [
+        "c:\\users\\shrisha\\desktop\\hyd_3\\dashboard\\__pycache__\\__init__.cpython-312.pyc.1753119301808",
+        2
+      ],
+      [
+        "c:\\users\\shrisha\\desktop\\hyd_3\\dashboard\\__pycache__\\app.cpython-312.pyc.1753117384624",
+        2
+      ],
+      [
+        "c:\\users\\shrisha\\desktop\\hyd_3\\storage\\baselines\\user_baselines.json",
+        2
+      ],
+      [
+        "c:\\users\\shrisha\\desktop\\hyd_3\\.venv\\lib\\site-packages\\google\\_upb\\_message.pyd",
+        1
+      ],
+      [
+        "c:\\users\\shrisha\\desktop\\hyd_3\\dashboard\\app.py",
+        1
+      ]
+    ],
+    "network_behavior_patterns": [
+      [
+        "150.171.27.11",
+        2
+      ],
+      [
+        "::1",
+        2
+      ],
+      [
+        "150.171.110.86",
+        2
+      ],
+      [
+        "150.171.110.81",
+        1
+      ],
+      [
+        "35.190.80.1",
+        1
+      ],
+      [
+        "57.155.142.113",
+        1
+      ]
+    ],
+    "updated_at": "2026-04-17T18:01:10.367506"
+  },
+  "LAPTOP-7D4NFLFI\\SHRISHA": {
+    "login_time_patterns": {
+      "17": 1.0
+    },
+    "process_usage_patterns": [
+      [
+        "searchprotocolhost.exe",
+        1
+      ],
+      [
+        "powershell.exe",
+        1
+      ],
+      [
+        "msedge.exe",
+        1
+      ],
+      [
+        "runtimebroker.exe",
+        1
+      ],
+      [
+        "conhost.exe",
+        1
+      ]
+    ],
+    "file_access_patterns": [],
+    "network_behavior_patterns": [],
+    "updated_at": "2026-04-17T18:01:10.367506"
+  }
+}

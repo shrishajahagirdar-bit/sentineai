@@ -1,0 +1,26 @@
+# Core ML & Data Science
+pandas==2.3.1
+numpy==2.3.1
+scikit-learn==1.7.0
+joblib==1.5.1
+
+# Windows System Integration
+psutil==6.1.0
+pywin32==308
+
+# File Monitoring
+watchdog==6.0.0
+
+# Dashboard & Visualization
+streamlit==1.47.0
+streamlit-autorefresh==1.0.1
+plotly==6.2.0
+
+# API (optional for backend service)
+fastapi==0.100.0
+uvicorn==0.23.1
+pydantic==2.3.0
+
+# Additional utilities
+python-dateutil==2.8.2
+requests==2.31.0

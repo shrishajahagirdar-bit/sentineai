@@ -1,0 +1,1628 @@
+{
+  "0": {
+    "name": "System Idle Process",
+    "username": "NT AUTHORITY\\SYSTEM",
+    "create_time": 0,
+    "exe": ""
+  },
+  "4": {
+    "name": "System",
+    "username": "NT AUTHORITY\\SYSTEM",
+    "create_time": 0,
+    "exe": ""
+  },
+  "188": {
+    "name": "unknown",
+    "username": "unknown",
+    "create_time": 1776445870.5786505,
+    "exe": ""
+  },
+  "232": {
+    "name": "Registry",
+    "username": "unknown",
+    "create_time": 1776445870.589326,
+    "exe": "Registry"
+  },
+  "732": {
+    "name": "smss.exe",
+    "username": "unknown",
+    "create_time": 1776445872.6539845,
+    "exe": "C:\\Windows\\System32\\smss.exe"
+  },
+  "820": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.685398,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "860": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.6853676,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "1160": {
+    "name": "csrss.exe",
+    "username": "unknown",
+    "create_time": 1776445882.5108647,
+    "exe": "C:\\Windows\\System32\\csrss.exe"
+  },
+  "1268": {
+    "name": "wininit.exe",
+    "username": "unknown",
+    "create_time": 1776445884.664225,
+    "exe": "C:\\Windows\\System32\\wininit.exe"
+  },
+  "1276": {
+    "name": "csrss.exe",
+    "username": "unknown",
+    "create_time": 1776445884.6645486,
+    "exe": "C:\\Windows\\System32\\csrss.exe"
+  },
+  "1344": {
+    "name": "services.exe",
+    "username": "unknown",
+    "create_time": 1776445884.9557269,
+    "exe": "C:\\Windows\\System32\\services.exe"
+  },
+  "1364": {
+    "name": "LsaIso.exe",
+    "username": "unknown",
+    "create_time": 1776445884.9907541,
+    "exe": "C:\\Windows\\System32\\LsaIso.exe"
+  },
+  "1372": {
+    "name": "lsass.exe",
+    "username": "unknown",
+    "create_time": 1776445884.994234,
+    "exe": "C:\\Windows\\System32\\lsass.exe"
+  },
+  "1392": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.6890295,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "1396": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.689361,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "1432": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.688095,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "1500": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.2371373,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "1532": {
+    "name": "WUDFHost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.249096,
+    "exe": "C:\\Windows\\System32\\WUDFHost.exe"
+  },
+  "1552": {
+    "name": "fontdrvhost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.2566905,
+    "exe": "C:\\Windows\\System32\\fontdrvhost.exe"
+  },
+  "1640": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.303053,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "1688": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.3257265,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "1704": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445998.0755851,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "1732": {
+    "name": "conhost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448545.6122203,
+    "exe": "C:\\Windows\\System32\\conhost.exe"
+  },
+  "1744": {
+    "name": "WUDFHost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.3643732,
+    "exe": "C:\\Windows\\System32\\WUDFHost.exe"
+  },
+  "1796": {
+    "name": "WUDFHost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.4452467,
+    "exe": "C:\\Windows\\System32\\WUDFHost.exe"
+  },
+  "1812": {
+    "name": "Code.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446580.203132,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+  },
+  "1848": {
+    "name": "WUDFHost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.5469959,
+    "exe": "C:\\Windows\\System32\\WUDFHost.exe"
+  },
+  "1928": {
+    "name": "winlogon.exe",
+    "username": "unknown",
+    "create_time": 1776445885.6120367,
+    "exe": "C:\\Windows\\System32\\winlogon.exe"
+  },
+  "1980": {
+    "name": "fontdrvhost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.6435072,
+    "exe": "C:\\Windows\\System32\\fontdrvhost.exe"
+  },
+  "2128": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.8684936,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "2168": {
+    "name": "dwm.exe",
+    "username": "unknown",
+    "create_time": 1776445885.705054,
+    "exe": "C:\\Windows\\System32\\dwm.exe"
+  },
+  "2244": {
+    "name": "LenovoVantage-(LenovoGamingSystemAddin).exe",
+    "username": "unknown",
+    "create_time": 1776446059.6345527,
+    "exe": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantage-(LenovoGamingSystemAddin).exe"
+  },
+  "2248": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.722352,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "2264": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.7262685,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "2280": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.726542,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "2292": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.7271757,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "2352": {
+    "name": "RuntimeBroker.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776447685.73169,
+    "exe": "C:\\Windows\\System32\\RuntimeBroker.exe"
+  },
+  "2384": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.8694565,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "2476": {
+    "name": "IntelCpHDCPSvc.exe",
+    "username": "unknown",
+    "create_time": 1776445885.7503595,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_0ef1b60d464b7740\\IntelCpHDCPSvc.exe"
+  },
+  "2492": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.7515576,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "2516": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.7549796,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "2536": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.7564692,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "2576": {
+    "name": "SearchIndexer.exe",
+    "username": "unknown",
+    "create_time": 1776445998.578873,
+    "exe": "C:\\Windows\\System32\\SearchIndexer.exe"
+  },
+  "2668": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.7713163,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "2712": {
+    "name": "svchost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776445998.4823668,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "2744": {
+    "name": "NVDisplay.Container.exe",
+    "username": "unknown",
+    "create_time": 1776445885.8698661,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvlt.inf_amd64_45df1d07baab9850\\Display.NvContainer\\NVDisplay.Container.exe"
+  },
+  "2796": {
+    "name": "sihost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776445998.443627,
+    "exe": "C:\\Windows\\System32\\sihost.exe"
+  },
+  "2800": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.787413,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "2904": {
+    "name": "msedgewebview2.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446082.38588,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\147.0.3912.60\\msedgewebview2.exe"
+  },
+  "2936": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.8191187,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3016": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.8372166,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3052": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.1495616,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3084": {
+    "name": "OneDrive.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446067.7400692,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe"
+  },
+  "3108": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445918.4424367,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3156": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.8883789,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3220": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.904796,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3280": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.9158945,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3288": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.9168904,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3296": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.9172325,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3312": {
+    "name": "SecurityHealthService.exe",
+    "username": "unknown",
+    "create_time": 1776445991.6703103,
+    "exe": "C:\\Windows\\System32\\SecurityHealthService.exe"
+  },
+  "3516": {
+    "name": "MemCompression",
+    "username": "unknown",
+    "create_time": 1776445885.937381,
+    "exe": "MemCompression"
+  },
+  "3560": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.9426124,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3600": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.950528,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3636": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.9537957,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3648": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.954838,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3684": {
+    "name": "m365copilot_autostarter.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446105.9944515,
+    "exe": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2604.43111.0_x64__8wekyb3d8bbwe\\m365copilot_autostarter.exe"
+  },
+  "3792": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445885.9969292,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3812": {
+    "name": "svchost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776445998.4822512,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3832": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.0122373,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3892": {
+    "name": "SearchHost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446038.637244,
+    "exe": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe"
+  },
+  "3924": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.0510952,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "3936": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.051658,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4020": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.0940316,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4052": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.1137493,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4088": {
+    "name": "FnHotkeyCapsLKNumLK.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776445998.82514,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\FnHotkeyCapsLKNumLK.exe"
+  },
+  "4156": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776446020.5572011,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4164": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.2044,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4192": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.218948,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4204": {
+    "name": "AppProvisioningPlugin.exe",
+    "username": "unknown",
+    "create_time": 1776445968.3393335,
+    "exe": "C:\\ProgramData\\Lenovo\\Udc\\Hosts\\x64\\AppProvisioningPlugin.exe"
+  },
+  "4208": {
+    "name": "msedgewebview2.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446082.520645,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\147.0.3912.60\\msedgewebview2.exe"
+  },
+  "4260": {
+    "name": "spoolsv.exe",
+    "username": "unknown",
+    "create_time": 1776445886.275529,
+    "exe": "C:\\Windows\\System32\\spoolsv.exe"
+  },
+  "4292": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.2963228,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4308": {
+    "name": "conhost.exe",
+    "username": "unknown",
+    "create_time": 1776445968.399551,
+    "exe": "C:\\Windows\\System32\\conhost.exe"
+  },
+  "4368": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.3427072,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4428": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446865.0666783,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "4540": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445892.4645936,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4544": {
+    "name": "msedgewebview2.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446039.1695726,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\147.0.3912.60\\msedgewebview2.exe"
+  },
+  "4588": {
+    "name": "AISControlService.exe",
+    "username": "unknown",
+    "create_time": 1776445886.402542,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\aispeechapo.inf_amd64_c60dcb8babaf9b09\\AISControlService.exe"
+  },
+  "4596": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.402634,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4604": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4031248,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4612": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4032931,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4620": {
+    "name": "IntelAudioService.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4060612,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\intcoed.inf_amd64_66ea546960968650\\AS\\IAS\\IntelAudioService.exe"
+  },
+  "4628": {
+    "name": "jhi_service.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4060843,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_8a3f88e34f6b8385\\jhi_service.exe"
+  },
+  "4636": {
+    "name": "ipf_uf.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4064443,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_4b6a23f61a3d7da1\\ipf_uf.exe"
+  },
+  "4644": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4064553,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4652": {
+    "name": "servicehost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4073677,
+    "exe": "C:\\Program Files\\McAfee\\WebAdvisor\\servicehost.exe"
+  },
+  "4668": {
+    "name": "LenovoVantageService.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4080355,
+    "exe": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantageService.exe"
+  },
+  "4676": {
+    "name": "RtkBtManServ.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4090335,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\rtkbtfilter.inf_amd64_11c43d8cdd0436a1\\RtkBtManServ.exe"
+  },
+  "4684": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4092531,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4692": {
+    "name": "NahimicService.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4094613,
+    "exe": "C:\\Windows\\System32\\NahimicService.exe"
+  },
+  "4700": {
+    "name": "XtuService.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4099567,
+    "exe": "C:\\Windows\\SysWOW64\\XtuService.exe"
+  },
+  "4708": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.410045,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4720": {
+    "name": "RtkAudUService64.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4101157,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_26f0df01c9da165d\\RtkAudUService64.exe"
+  },
+  "4728": {
+    "name": "WMIRegistrationService.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4102821,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_58a0ea2de06916f7\\WMIRegistrationService.exe"
+  },
+  "4736": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4106047,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "4744": {
+    "name": "ipfsvc.exe",
+    "username": "unknown",
+    "create_time": 1776445886.410947,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dtt_sw.inf_amd64_eff1f30039f77f6b\\ipfsvc.exe"
+  },
+  "4752": {
+    "name": "MpDefenderCoreService.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4120576,
+    "exe": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26030.3011-0\\MpDefenderCoreService.exe"
+  },
+  "4768": {
+    "name": "OfficeClickToRun.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4142735,
+    "exe": "C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe"
+  },
+  "4780": {
+    "name": "UDClientService.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4145615,
+    "exe": "C:\\Windows\\System32\\drivers\\lenovo\\UDC\\Service\\UDClientService.exe"
+  },
+  "4812": {
+    "name": "LenovoUtilityService.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4182882,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\LenovoUtilityService.exe"
+  },
+  "4844": {
+    "name": "MsMpEng.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4234164,
+    "exe": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26030.3011-0\\MsMpEng.exe"
+  },
+  "4868": {
+    "name": "Nahimic3.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446046.1539507,
+    "exe": "C:\\Program Files\\WindowsApps\\A-Volute.Nahimic_1.10.9.0_x64__w2gh52qy24etm\\Nahimic3.exe"
+  },
+  "4876": {
+    "name": "mc-fw-host.exe",
+    "username": "unknown",
+    "create_time": 1776445886.4269855,
+    "exe": "C:\\Program Files\\McAfee\\wps\\1.38.166.1\\mc-fw-host.exe"
+  },
+  "4900": {
+    "name": "ApplicationFrameHost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446046.1428285,
+    "exe": "C:\\Windows\\System32\\ApplicationFrameHost.exe"
+  },
+  "4912": {
+    "name": "Code.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446584.3097422,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+  },
+  "4920": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445990.5100336,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "5016": {
+    "name": "svchost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776445998.5510108,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "5192": {
+    "name": "msedge.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446082.6914785,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+  },
+  "5236": {
+    "name": "SearchFilterHost.exe",
+    "username": "unknown",
+    "create_time": 1776448059.4194565,
+    "exe": "C:\\Windows\\System32\\SearchFilterHost.exe"
+  },
+  "5328": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445886.5056536,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "5644": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776448841.762627,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "6088": {
+    "name": "nahimicNotifSys.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446030.9382508,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\NhNotifSys\\nahimic\\nahimicNotifSys.exe"
+  },
+  "6628": {
+    "name": "msedgewebview2.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446082.2124,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\147.0.3912.60\\msedgewebview2.exe"
+  },
+  "6768": {
+    "name": "WmiPrvSE.exe",
+    "username": "unknown",
+    "create_time": 1776445886.9301107,
+    "exe": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe"
+  },
+  "6796": {
+    "name": "uihost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776445998.6065576,
+    "exe": "C:\\Program Files\\McAfee\\WebAdvisor\\uihost.exe"
+  },
+  "7484": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445889.9723742,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "7612": {
+    "name": "unsecapp.exe",
+    "username": "unknown",
+    "create_time": 1776445887.48899,
+    "exe": "C:\\Windows\\System32\\wbem\\unsecapp.exe"
+  },
+  "7724": {
+    "name": "IntelGraphicsSoftware.Service.exe",
+    "username": "unknown",
+    "create_time": 1776445888.3659484,
+    "exe": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.4.2155.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software\\IntelGraphicsSoftware.Service.exe"
+  },
+  "7904": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445888.3897877,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "8020": {
+    "name": "mc-neo-host.exe",
+    "username": "unknown",
+    "create_time": 1776445888.3905594,
+    "exe": "C:\\ProgramData\\McAfee\\wps\\content\\neo-core\\26.3.0.79\\mc-neo-host.exe"
+  },
+  "8052": {
+    "name": "python.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448385.5928268,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+  },
+  "8080": {
+    "name": "NVDisplay.Container.exe",
+    "username": "unknown",
+    "create_time": 1776445894.0685873,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvlt.inf_amd64_45df1d07baab9850\\Display.NvContainer\\NVDisplay.Container.exe"
+  },
+  "8172": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445888.2970943,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "8360": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445888.6598835,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "8400": {
+    "name": "AggregatorHost.exe",
+    "username": "unknown",
+    "create_time": 1776445888.6872647,
+    "exe": "C:\\Windows\\System32\\AggregatorHost.exe"
+  },
+  "8432": {
+    "name": "DataExchangeHost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776447673.6396885,
+    "exe": "C:\\Windows\\System32\\DataExchangeHost.exe"
+  },
+  "8540": {
+    "name": "ipf_helper.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776445998.6079865,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_4b6a23f61a3d7da1\\ipf_helper.exe"
+  },
+  "8584": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776446107.577116,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "8588": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446863.1608915,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "8860": {
+    "name": "PresentMonService.exe",
+    "username": "unknown",
+    "create_time": 1776445889.162274,
+    "exe": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.4.2155.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software\\PresentMonService.exe"
+  },
+  "8876": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445894.42248,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "8920": {
+    "name": "Code.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446706.851879,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+  },
+  "8928": {
+    "name": "conhost.exe",
+    "username": "unknown",
+    "create_time": 1776445889.2452695,
+    "exe": "C:\\Windows\\System32\\conhost.exe"
+  },
+  "9180": {
+    "name": "RtkAudUService64.exe",
+    "username": "unknown",
+    "create_time": 1776445889.818644,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_26f0df01c9da165d\\RtkAudUService64.exe"
+  },
+  "9196": {
+    "name": "mc-fw-host.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776445998.4223745,
+    "exe": "C:\\Program Files\\McAfee\\wps\\1.38.166.1\\mc-fw-host.exe"
+  },
+  "9248": {
+    "name": "conhost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446590.0550187,
+    "exe": "C:\\Windows\\System32\\conhost.exe"
+  },
+  "9396": {
+    "name": "svchost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776445998.647687,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "9400": {
+    "name": "taskhostw.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776445998.8633976,
+    "exe": "C:\\Windows\\System32\\taskhostw.exe"
+  },
+  "9656": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445896.9553757,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "9696": {
+    "name": "SEGameTool.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446354.8334079,
+    "exe": "C:\\ProgramData\\Lenovo\\Vantage\\Addins\\SmartColorAddin\\1.0.4.217\\x64\\SEGameTool.exe"
+  },
+  "9744": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445897.1111617,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "9956": {
+    "name": "msedgewebview2.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446039.2410564,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\147.0.3912.60\\msedgewebview2.exe"
+  },
+  "10008": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445998.8366125,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "10052": {
+    "name": "ShellExperienceHost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446737.3160071,
+    "exe": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe"
+  },
+  "10128": {
+    "name": "msedgewebview2.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446039.4293575,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\147.0.3912.60\\msedgewebview2.exe"
+  },
+  "10144": {
+    "name": "RuntimeBroker.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446046.8912137,
+    "exe": "C:\\Windows\\System32\\RuntimeBroker.exe"
+  },
+  "10220": {
+    "name": "Code.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446571.4570467,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+  },
+  "10528": {
+    "name": "MicrosoftEdgeUpdate.exe",
+    "username": "unknown",
+    "create_time": 1776445999.1245825,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe"
+  },
+  "10580": {
+    "name": "unsecapp.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776445999.175644,
+    "exe": "C:\\Windows\\System32\\wbem\\unsecapp.exe"
+  },
+  "10592": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446840.057168,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "10800": {
+    "name": "backgroundTaskHost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446372.534875,
+    "exe": "C:\\Windows\\System32\\backgroundTaskHost.exe"
+  },
+  "10972": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446951.4620144,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "10976": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445999.5677783,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "11044": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446846.1912136,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "11120": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776445999.5871584,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "11452": {
+    "name": "svchost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446107.8335,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "11464": {
+    "name": "msedgewebview2.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446082.3818822,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\147.0.3912.60\\msedgewebview2.exe"
+  },
+  "11484": {
+    "name": "Locator.exe",
+    "username": "unknown",
+    "create_time": 1776446348.5966587,
+    "exe": "C:\\Windows\\System32\\Locator.exe"
+  },
+  "11556": {
+    "name": "MessagingPlugin.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446002.4397144,
+    "exe": "C:\\ProgramData\\Lenovo\\Udc\\Hosts\\x64\\MessagingPlugin.exe"
+  },
+  "11572": {
+    "name": "conhost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446002.5240123,
+    "exe": "C:\\Windows\\System32\\conhost.exe"
+  },
+  "11784": {
+    "name": "FnHotkeyUtility.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446000.871791,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\FnHotkeyUtility.exe"
+  },
+  "11820": {
+    "name": "powershell.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448600.6969056,
+    "exe": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  },
+  "11856": {
+    "name": "conhost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446841.7545068,
+    "exe": "C:\\Windows\\System32\\conhost.exe"
+  },
+  "11880": {
+    "name": "ShellHost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446001.050114,
+    "exe": "C:\\Windows\\System32\\ShellHost.exe"
+  },
+  "11916": {
+    "name": "python.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448385.5472095,
+    "exe": "C:\\Users\\SHRISHA\\Desktop\\HYD_3\\.venv\\Scripts\\python.exe"
+  },
+  "12124": {
+    "name": "CrossDeviceResume.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446001.269668,
+    "exe": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe"
+  },
+  "12168": {
+    "name": "explorer.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446001.3007665,
+    "exe": "C:\\Windows\\explorer.exe"
+  },
+  "12324": {
+    "name": "NahimicSvc64.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446003.505725,
+    "exe": "C:\\Windows\\System32\\NahimicSvc64.exe"
+  },
+  "12440": {
+    "name": "Code.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446571.4972928,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+  },
+  "12476": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446831.7602592,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "12500": {
+    "name": "LenovoVantage-(GenericMessagingAddin).exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446362.578622,
+    "exe": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantage-(GenericMessagingAddin).exe"
+  },
+  "12540": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776446003.9296236,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "12552": {
+    "name": "NahimicSvc32.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446003.9590073,
+    "exe": "C:\\Windows\\SysWOW64\\NahimicSvc32.exe"
+  },
+  "12588": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446831.6577127,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "12720": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776446009.4182386,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "12868": {
+    "name": "unsecapp.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446005.3159125,
+    "exe": "C:\\Windows\\System32\\wbem\\unsecapp.exe"
+  },
+  "12892": {
+    "name": "msedge.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448606.982195,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+  },
+  "12900": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446826.3849003,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "12940": {
+    "name": "NahimicAPO4Volume.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446005.6143682,
+    "exe": "C:\\Windows\\System32\\NahimicAPO4Volume.exe"
+  },
+  "13068": {
+    "name": "msedgewebview2.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446082.077814,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\147.0.3912.60\\msedgewebview2.exe"
+  },
+  "13156": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776446009.1061294,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "13164": {
+    "name": "streamlit.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448559.6718113,
+    "exe": "C:\\Users\\SHRISHA\\Desktop\\HYD_3\\.venv\\Scripts\\streamlit.exe"
+  },
+  "13196": {
+    "name": "RuntimeBroker.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448607.1182446,
+    "exe": "C:\\Windows\\System32\\RuntimeBroker.exe"
+  },
+  "13328": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776446010.2594,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "13424": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776446010.6038554,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "13496": {
+    "name": "svchost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446010.7916076,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "13616": {
+    "name": "SearchFilterHost.exe",
+    "username": "unknown",
+    "create_time": 1776447750.882988,
+    "exe": "C:\\Windows\\System32\\SearchFilterHost.exe"
+  },
+  "13628": {
+    "name": "SearchFilterHost.exe",
+    "username": "unknown",
+    "create_time": 1776448058.7488909,
+    "exe": "C:\\Windows\\System32\\SearchFilterHost.exe"
+  },
+  "13680": {
+    "name": "svchost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446011.2979221,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "13692": {
+    "name": "msedge.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446082.692181,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+  },
+  "13744": {
+    "name": "svchost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446104.3972504,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "14048": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446826.6797807,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "14140": {
+    "name": "LenovoVantage-(VantageCoreAddin).exe",
+    "username": "unknown",
+    "create_time": 1776446048.5982127,
+    "exe": "C:\\Program Files (x86)\\Lenovo\\VantageService\\4.2601.21.0\\LenovoVantage-(VantageCoreAddin).exe"
+  },
+  "14176": {
+    "name": "dllhost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446014.2516444,
+    "exe": "C:\\Windows\\System32\\dllhost.exe"
+  },
+  "14312": {
+    "name": "smartscreen.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448561.9249747,
+    "exe": "C:\\Windows\\System32\\smartscreen.exe"
+  },
+  "14360": {
+    "name": "Widgets.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446018.0133097,
+    "exe": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.Client.WebExperience_526.1202.40.0_x64__cw5n1h2txyewy\\Dashboard\\Widgets.exe"
+  },
+  "14404": {
+    "name": "StartMenuExperienceHost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446018.0518968,
+    "exe": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe"
+  },
+  "14612": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446863.4750156,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "14672": {
+    "name": "msedge.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448871.025832,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+  },
+  "14712": {
+    "name": "svchost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446018.583758,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "14720": {
+    "name": "WidgetService.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446018.5843284,
+    "exe": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.14.0_x64__8wekyb3d8bbwe\\WidgetService\\WidgetService.exe"
+  },
+  "14736": {
+    "name": "RuntimeBroker.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446018.6148455,
+    "exe": "C:\\Windows\\System32\\RuntimeBroker.exe"
+  },
+  "14932": {
+    "name": "msedgewebview2.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446039.324561,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\147.0.3912.60\\msedgewebview2.exe"
+  },
+  "15020": {
+    "name": "PhoneExperienceHost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446034.8671503,
+    "exe": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26022.64.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe"
+  },
+  "15116": {
+    "name": "msedgewebview2.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446039.3248343,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\147.0.3912.60\\msedgewebview2.exe"
+  },
+  "15272": {
+    "name": "AppActions.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446601.4562929,
+    "exe": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\AppActions.exe"
+  },
+  "15364": {
+    "name": "msedgewebview2.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446039.3947933,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\147.0.3912.60\\msedgewebview2.exe"
+  },
+  "15392": {
+    "name": "msedge.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446082.6004026,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+  },
+  "15408": {
+    "name": "Code.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446569.2642813,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+  },
+  "15828": {
+    "name": "msedgewebview2.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446082.4660013,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\147.0.3912.60\\msedgewebview2.exe"
+  },
+  "16020": {
+    "name": "Code.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446582.2873545,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+  },
+  "16108": {
+    "name": "RtkAudUService64.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446064.211418,
+    "exe": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_26f0df01c9da165d\\RtkAudUService64.exe"
+  },
+  "16336": {
+    "name": "backgroundTaskHost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776447685.567966,
+    "exe": "C:\\Windows\\System32\\backgroundTaskHost.exe"
+  },
+  "16400": {
+    "name": "Code.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446566.7242823,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+  },
+  "16420": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446831.7970035,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "16428": {
+    "name": "UserOOBEBroker.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446021.4669504,
+    "exe": "C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe"
+  },
+  "16496": {
+    "name": "pet.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446590.7909205,
+    "exe": "C:\\Users\\SHRISHA\\.vscode\\extensions\\ms-python.vscode-python-envs-1.28.0-win32-x64\\python-env-tools\\bin\\pet.exe"
+  },
+  "16556": {
+    "name": "msedge.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448570.0937774,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+  },
+  "16636": {
+    "name": "conhost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446590.907094,
+    "exe": "C:\\Windows\\System32\\conhost.exe"
+  },
+  "16672": {
+    "name": "msedge.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446082.4563768,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+  },
+  "16684": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776446045.3192518,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "16832": {
+    "name": "RuntimeBroker.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446737.831144,
+    "exe": "C:\\Windows\\System32\\RuntimeBroker.exe"
+  },
+  "16900": {
+    "name": "ctfmon.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446024.9285264,
+    "exe": "C:\\Windows\\System32\\ctfmon.exe"
+  },
+  "17096": {
+    "name": "Code.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446573.8156335,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+  },
+  "17124": {
+    "name": "SecurityHealthSystray.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446052.5795748,
+    "exe": "C:\\Windows\\System32\\SecurityHealthSystray.exe"
+  },
+  "17440": {
+    "name": "msedge.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446082.7884505,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+  },
+  "17668": {
+    "name": "RuntimeBroker.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446825.286857,
+    "exe": "C:\\Windows\\System32\\RuntimeBroker.exe"
+  },
+  "17908": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776447510.060923,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "18100": {
+    "name": "SystemSettings.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446105.7558782,
+    "exe": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe"
+  },
+  "18276": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776448561.7744343,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "18396": {
+    "name": "powershell.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446766.3603103,
+    "exe": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  },
+  "18712": {
+    "name": "mc-extn-browserhost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446841.9103277,
+    "exe": "C:\\Program Files\\McAfee\\wps\\1.38.166.1\\extnhost\\mc-extn-browserhost.exe"
+  },
+  "18772": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446839.73946,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "18832": {
+    "name": "conhost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446591.7974775,
+    "exe": "C:\\Windows\\System32\\conhost.exe"
+  },
+  "18844": {
+    "name": "powershell.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446591.8908477,
+    "exe": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  },
+  "18884": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776448861.0323262,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "19000": {
+    "name": "svchost.exe",
+    "username": "unknown",
+    "create_time": 1776446108.651065,
+    "exe": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "19268": {
+    "name": "msedge.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448561.9898148,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+  },
+  "19552": {
+    "name": "codex.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446587.5914435,
+    "exe": "C:\\Users\\SHRISHA\\.vscode\\extensions\\openai.chatgpt-26.415.20818-win32-x64\\bin\\windows-x86_64\\codex.exe"
+  },
+  "19684": {
+    "name": "RuntimeBroker.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446372.8381188,
+    "exe": "C:\\Windows\\System32\\RuntimeBroker.exe"
+  },
+  "19696": {
+    "name": "WmiApSrv.exe",
+    "username": "unknown",
+    "create_time": 1776446350.580289,
+    "exe": "C:\\Windows\\System32\\wbem\\WmiApSrv.exe"
+  },
+  "19700": {
+    "name": "Code.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446577.948454,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+  },
+  "19708": {
+    "name": "backgroundTaskHost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446825.0317533,
+    "exe": "C:\\Windows\\System32\\backgroundTaskHost.exe"
+  },
+  "19712": {
+    "name": "chrome.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446839.8075807,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "19744": {
+    "name": "browserhost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446841.9528687,
+    "exe": "C:\\Program Files\\McAfee\\WebAdvisor\\browserhost.exe"
+  },
+  "19816": {
+    "name": "Code.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446596.9039729,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+  },
+  "19836": {
+    "name": "SearchProtocolHost.exe",
+    "username": "unknown",
+    "create_time": 1776447747.0013635,
+    "exe": "C:\\Windows\\System32\\SearchProtocolHost.exe"
+  },
+  "19904": {
+    "name": "cmd.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446841.709554,
+    "exe": "C:\\Windows\\System32\\cmd.exe"
+  },
+  "19964": {
+    "name": "conhost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446841.751792,
+    "exe": "C:\\Windows\\System32\\conhost.exe"
+  },
+  "19988": {
+    "name": "python.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448559.7326336,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+  },
+  "20072": {
+    "name": "cmd.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446841.7101912,
+    "exe": "C:\\Windows\\System32\\cmd.exe"
+  },
+  "20104": {
+    "name": "SearchFilterHost.exe",
+    "username": "unknown",
+    "create_time": 1776448059.7391331,
+    "exe": "C:\\Windows\\System32\\SearchFilterHost.exe"
+  },
+  "20192": {
+    "name": "FileCoAuth.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446137.1757364,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Microsoft\\OneDrive\\26.055.0323.0004_1\\FileCoAuth.exe"
+  },
+  "20324": {
+    "name": "SearchFilterHost.exe",
+    "username": "unknown",
+    "create_time": 1776448058.880582,
+    "exe": "C:\\Windows\\System32\\SearchFilterHost.exe"
+  },
+  "20460": {
+    "name": "conhost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776446766.2731109,
+    "exe": "C:\\Windows\\System32\\conhost.exe"
+  },
+  "20720": {
+    "name": "Code.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776447908.5937915,
+    "exe": "C:\\Users\\SHRISHA\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+  },
+  "20768": {
+    "name": "msedge.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448564.8882575,
+    "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+  },
+  "20852": {
+    "name": "powershell.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448545.7403162,
+    "exe": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  },
+  "21340": {
+    "name": "conhost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448600.6033857,
+    "exe": "C:\\Windows\\System32\\conhost.exe"
+  },
+  "21412": {
+    "name": "backgroundTaskHost.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776447685.5860937,
+    "exe": "C:\\Windows\\System32\\backgroundTaskHost.exe"
+  },
+  "21916": {
+    "name": "python.exe",
+    "username": "LAPTOP-7D4NFLFI\\SHRISHA",
+    "create_time": 1776448559.698706,
+    "exe": "C:\\Users\\SHRISHA\\Desktop\\HYD_3\\.venv\\Scripts\\python.exe"
+  }
+}
