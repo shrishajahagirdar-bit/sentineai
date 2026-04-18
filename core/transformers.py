@@ -104,6 +104,7 @@ def normalize_event(raw_event: Any) -> dict[str, Any]:
     fallback = {
         "event_id": "fallback-event",
         "timestamp": _utc_now_iso(),
+        "hostname": "unknown",
         "source": "middleware",
         "event_type": "fallback",
         "severity": "low",

@@ -57,3 +57,53 @@ class RiskResponse(BaseModel):
     explanation: str
     incident_story: str
 
+
+class AlertPayload(BaseModel):
+    alert_id: str
+    tenant_id: str
+    severity: str
+    event_type: str
+    risk_score: float
+    host: str | None = None
+    user: str | None = None
+    timestamp: str | None = None
+    description: str | None = None
+    recommended_action: str
+    details: dict[str, Any] = Field(default_factory=dict)
+
+
+class AlertEvaluateRequest(BaseModel):
+    tenant_id: str | None = None
+    event_id: str | None = None
+    event_type: str | None = None
+    severity: str | None = None
+    risk_score: float | None = None
+    host: str | None = None
+    user: str | None = None
+    timestamp: datetime | None = None
+    description: str | None = None
+    attack_type: str | None = None
+    mitre_technique: str | None = None
+    source: str | None = None
+    parsed_fields: dict[str, Any] = Field(default_factory=dict)
+    metadata: dict[str, Any] = Field(default_factory=dict)
+
+
+class AlertTestRequest(BaseModel):
+    tenant_id: str | None = None
+    severity: str | None = "high"
+    event_type: str | None = "test_event"
+    risk_score: float | None = 85.0
+    host: str | None = "test-host"
+    user: str | None = "test-user"
+    description: str | None = "SentinelAI alert test payload"
+    recommended_action: str | None = "monitor"
+
+
+class KillSwitchApproveRequest(BaseModel):
+    alert_id: str
+    action: str
+    approver: str
+    approved: bool = False
+    reason: str | None = None
+

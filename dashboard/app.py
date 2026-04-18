@@ -17,6 +17,7 @@ from streamlit_autorefresh import st_autorefresh
 
 from collector.storage import load_json, read_jsonl
 from core.transformers import normalize_event, safe_dataframe_convert, safe_empty_check
+from observability.metrics import read_snapshot
 from sentinel_config import CONFIG
 
 
@@ -86,6 +87,7 @@ events = read_jsonl(CONFIG.event_store, limit=500)
 incidents = read_jsonl(CONFIG.incident_store, limit=500)
 baselines = load_json(CONFIG.baseline_store, {})
 model_metadata = load_json(CONFIG.model_metadata_store, {})
+health_snapshot = read_snapshot()
 
 event_df = safe_dataframe_convert([normalize_event(event) for event in events if isinstance(event, dict)])
 incident_df = safe_dataframe_convert([normalize_event(event) for event in incidents if isinstance(event, dict)])
@@ -336,6 +338,19 @@ with tab5:
     st.write(f"**Baseline Store:** {CONFIG.baseline_store}")
     st.write(f"**Model Store:** {CONFIG.model_store}")
     st.write(f"**Polling Interval:** {CONFIG.poll_interval_seconds}s")
+
+    st.subheader("Operational Health")
+    services = health_snapshot.get("services", {}) if isinstance(health_snapshot, dict) else {}
+    agents = health_snapshot.get("agents", {}) if isinstance(health_snapshot, dict) else {}
+    if not services and not agents:
+        st.info("No observability snapshot available yet")
+    else:
+        st.write(f"**Kafka Health:** {services.get('kafka', 'unknown')}")
+        st.write(f"**ML Service Health:** {services.get('ml', 'unknown')}")
+        st.write(f"**Control Plane Health:** {services.get('control_plane_api', 'unknown')}")
+        st.write(f"**DLQ Monitor:** {services.get('dlq', 'unknown')}")
+        st.write(f"**Agent Fleet Health:** {agents.get('status', 'unknown')}")
+        st.write(f"**Last Queue Depth:** {agents.get('queue_depth', 'unknown')}")
 
 st.markdown("---")
 st.caption("SentinelAI v1.0 | Enterprise EDR Platform | Real-time Windows Behavioral Security")

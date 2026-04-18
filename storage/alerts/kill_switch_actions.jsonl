@@ -1,0 +1,5 @@
+{"alert_id": "alert-123", "action": "kill_process", "approver": "analyst@example.com", "approved": true, "reason": "Confirmed critical escalation", "timestamp": "2026-04-17T23:21:05.437780Z"}
+{"alert_id": "alert-123", "action": "kill_process", "approver": "analyst@example.com", "approved": true, "reason": "Confirmed critical escalation", "timestamp": "2026-04-17T23:21:44.833048Z"}
+{"alert_id": "alert-123", "action": "kill_process", "approver": "analyst@example.com", "approved": true, "reason": "Confirmed critical escalation", "timestamp": "2026-04-17T23:22:24.661346+00:00"}
+{"alert_id": "alert-123", "action": "kill_process", "approver": "analyst@example.com", "approved": true, "reason": "Confirmed critical escalation", "timestamp": "2026-04-17T23:24:06.308959+00:00"}
+{"alert_id": "b889d68d-495c-4868-9517-2f2126c2e6d0", "action": "kill_process", "approver": "security-admin@sentinelai.local", "approved": true, "reason": "Confirmed privilege escalation attack", "timestamp": "2026-04-17T23:24:58.233665+00:00"}

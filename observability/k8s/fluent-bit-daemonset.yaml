@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: sentinelai-fluent-bit
+  namespace: sentinelai-prod
+spec:
+  selector:
+    matchLabels:
+      app: sentinelai-fluent-bit
+  template:
+    metadata:
+      labels:
+        app: sentinelai-fluent-bit
+    spec:
+      containers:
+        - name: fluent-bit
+          image: fluent/fluent-bit:3.1.9
+          volumeMounts:
+            - name: config
+              mountPath: /fluent-bit/etc
+            - name: varlog
+              mountPath: /var/log
+      volumes:
+        - name: config
+          configMap:
+            name: sentinelai-fluent-bit-config
+        - name: varlog
+          hostPath:
+            path: /var/log

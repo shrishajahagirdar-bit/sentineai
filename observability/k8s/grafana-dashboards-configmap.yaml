@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sentinelai-grafana-dashboards
+  namespace: sentinelai-prod
+data:
+  dashboards.yaml: |
+    dashboards:
+      - name: soc-system-health
+        panels:
+          - title: ingestion_rate
+          - title: kafka_lag
+          - title: dlq_event_count
+      - name: per-tenant-ingestion
+        panels:
+          - title: tenant throughput
+      - name: ml-performance
+        panels:
+          - title: ml_latency_ms
+      - name: agent-fleet-health
+        panels:
+          - title: agent_heartbeat_status

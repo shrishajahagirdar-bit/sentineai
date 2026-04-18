@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sentinelai-otel-collector
+  namespace: sentinelai-prod
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sentinelai-otel-collector
+  template:
+    metadata:
+      labels:
+        app: sentinelai-otel-collector
+    spec:
+      containers:
+        - name: otel-collector
+          image: otel/opentelemetry-collector-contrib:0.108.0
+          args:
+            - --config=/etc/otelcol-contrib/config.yaml
+          volumeMounts:
+            - name: config
+              mountPath: /etc/otelcol-contrib
+      volumes:
+        - name: config
+          configMap:
+            name: sentinelai-otel-config

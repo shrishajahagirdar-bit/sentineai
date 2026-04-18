@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sentinelai-mtls-config
+  namespace: sentinelai-prod
+data:
+  README: |
+    mTLS is enforced through service mesh or sidecar proxies.
+    Certificates:
+    - agent certificates issued per tenant
+    - service identities from mesh CA
+    - Kafka broker certs mounted from Vault/CSI

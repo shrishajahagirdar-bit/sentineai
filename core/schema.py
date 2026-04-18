@@ -65,6 +65,7 @@ class CanonicalEvent(BaseModel):
 
     event_id: str = Field(default_factory=_default_event_id)
     timestamp: str = Field(default_factory=_utc_now_iso)
+    hostname: str = "unknown"
     source: str = "unknown"
     event_type: str = "unknown"
     severity: Literal["low", "medium", "high", "critical"] = "low"
@@ -78,6 +79,8 @@ class CanonicalEvent(BaseModel):
     risk_score: float = 0.0
     anomaly_score: float = 0.0
     status: str = "safe_fallback"
+    label: int = 0
+    attack_type: str = "none"
 
     @model_validator(mode="before")
     @classmethod
@@ -99,6 +102,8 @@ class CanonicalEvent(BaseModel):
             "prediction": "ml_prediction",
             "anomaly_prediction": "ml_prediction",
             "time": "timestamp",
+            "host": "hostname",
+            "computer_name": "hostname",
         }
         for source_key, target_key in aliases.items():
             if source_key in payload and target_key not in payload:
@@ -117,6 +122,9 @@ class CanonicalEvent(BaseModel):
         payload["anomaly_score"] = payload.get("anomaly_score", 0.0)
         payload["message"] = str(payload.get("message", payload.get("incident_story", "data unavailable")))
         payload["status"] = str(payload.get("status", "success"))
+        payload["label"] = int(payload.get("label", 0) or 0)
+        payload["attack_type"] = str(payload.get("attack_type", payload.get("metadata", {}).get("attack_type", "none")))
+        payload["hostname"] = str(payload.get("hostname", "unknown"))
 
         known_fields = set(cls.model_fields.keys())
         extras = {key: val for key, val in payload.items() if key not in known_fields}
@@ -150,3 +158,20 @@ class EventStoreEnvelope(BaseModel):
     events: list[CanonicalEvent] = Field(default_factory=list)
     status: str = "safe_fallback"
     source: str = "unknown"
+
+
+class IncidentSchema(BaseModel):
+    model_config = ConfigDict(extra="allow")
+
+    incident_id: str = Field(default_factory=_default_event_id)
+    start_time: str = Field(default_factory=_utc_now_iso)
+    end_time: str = Field(default_factory=_utc_now_iso)
+    severity: Literal["low", "medium", "high", "critical"] = "low"
+    status: Literal["open", "investigating", "resolved"] = "open"
+    related_event_ids: list[str] = Field(default_factory=list)
+    attack_type: str = "unknown"
+    risk_score: float = 0.0
+    summary: str = "data unavailable"
+    user: str = "unknown"
+    source: str = "unknown"
+    metadata: dict[str, Any] = Field(default_factory=dict)

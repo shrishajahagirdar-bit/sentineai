@@ -1,0 +1,26 @@
+{{- if .Values.hpa.enabled }}
+{{- range $key, $svc := .Values.services }}
+{{- if not (has $svc.name $.Values.hpa.excludeServices) }}
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: {{ $svc.name }}
+  namespace: {{ $.Values.global.namespace }}
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: {{ $svc.name }}
+  minReplicas: {{ $.Values.hpa.minReplicas }}
+  maxReplicas: {{ $.Values.hpa.maxReplicas }}
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: {{ $.Values.hpa.cpuUtilization }}
+---
+{{- end }}
+{{- end }}
+{{- end }}

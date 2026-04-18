@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from datetime import datetime, timezone
+from pathlib import Path
 from queue import Empty, Queue
 from typing import Any
 
@@ -31,16 +32,19 @@ class _QueueHandler(FileSystemEventHandler):
     def _push(self, event_type: str, event: Any) -> None:
         if getattr(event, "is_directory", False):
             return
+        src_path = getattr(event, "src_path", "")
+        if self._is_internal_storage_path(src_path):
+            return
         self.queue.put(
             {
                 "timestamp": datetime.now(timezone.utc).isoformat(),
                 "source": "file_monitor",
                 "event_type": event_type,
                 "status": "ok",
-                "path": getattr(event, "src_path", ""),
-                "sensitive_file_access": self._is_sensitive(getattr(event, "src_path", "")),
+                "path": src_path,
+                "sensitive_file_access": self._is_sensitive(src_path),
                 "user": "system",
-                "message": f"{event_type.replace('_', ' ').title()}: {getattr(event, 'src_path', '')}",
+                "message": f"{event_type.replace('_', ' ').title()}: {src_path}",
             }
         )
 
@@ -48,6 +52,15 @@ class _QueueHandler(FileSystemEventHandler):
     def _is_sensitive(path: str) -> bool:
         lowered = path.lower()
         return any(keyword in lowered for keyword in CONFIG.sensitive_path_keywords)
+
+    @staticmethod
+    def _is_internal_storage_path(path: str) -> bool:
+        try:
+            target = Path(path).resolve()
+            storage_root = CONFIG.storage_dir.resolve()
+            return storage_root in [target, *target.parents]
+        except OSError:
+            return False
 
 
 class FileActivityCollector:
@@ -108,4 +121,3 @@ class FileActivityCollector:
             "message": message,
             "user": "system",
         }
-

@@ -2,6 +2,7 @@ from .safe_wrapper import log_health_event, safe_execution
 from .schema import (
     CanonicalEvent,
     EventStoreEnvelope,
+    IncidentSchema,
     LogEventSchema,
     MLOutputSchema,
     StandardResponse,
@@ -21,6 +22,7 @@ from .validator import enforce_types, fill_missing_fields, safe_cast, validate_d
 __all__ = [
     "CanonicalEvent",
     "EventStoreEnvelope",
+    "IncidentSchema",
     "LogEventSchema",
     "MLOutputSchema",
     "StandardResponse",

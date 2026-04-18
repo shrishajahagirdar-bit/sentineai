@@ -1,0 +1,119 @@
+global:
+  imagePullPolicy: IfNotPresent
+  namespace: sentinelai-prod
+  ingressClassName: nginx
+
+gateway:
+  enabled: true
+  host: sentinelai.local
+
+services:
+  controlPlaneApi:
+    name: control-plane-api
+    image: python:3.12-slim
+    port: 8010
+    replicas: 2
+    path: /app
+    command:
+      - sh
+      - -c
+      - pip install -r requirements.txt && uvicorn control_plane.main:app --host 0.0.0.0 --port 8010
+    env:
+      CONTROL_PLANE_DATABASE_URL: postgresql+psycopg2://sentinelai:sentinelai@sentinelai-postgresql:5432/sentinelai
+      CONTROL_PLANE_JWT_SECRET: sentinelai-dev-secret
+  agentManager:
+    name: agent-manager
+    image: python:3.12-slim
+    port: 8020
+    replicas: 2
+    command:
+      - sh
+      - -c
+      - pip install -r requirements.txt && uvicorn control_plane.main:app --host 0.0.0.0 --port 8020
+    env:
+      CONTROL_PLANE_DATABASE_URL: postgresql+psycopg2://sentinelai:sentinelai@sentinelai-postgresql:5432/sentinelai
+  mlInference:
+    name: ml-inference
+    image: python:3.12-slim
+    port: 8030
+    replicas: 2
+    command:
+      - sh
+      - -c
+      - pip install -r requirements.txt && uvicorn runtime_services.ml_inference_api:app --host 0.0.0.0 --port 8030
+  streamProcessor:
+    name: stream-processor
+    image: python:3.12-slim
+    port: 8040
+    replicas: 2
+    command:
+      - sh
+      - -c
+      - pip install -r requirements.txt && uvicorn runtime_services.stream_processor_api:app --host 0.0.0.0 --port 8040
+  responseEngine:
+    name: response-engine
+    image: python:3.12-slim
+    port: 8050
+    replicas: 2
+    command:
+      - sh
+      - -c
+      - pip install -r requirements.txt && uvicorn runtime_services.response_engine_api:app --host 0.0.0.0 --port 8050
+  dashboardFrontend:
+    name: dashboard-frontend
+    image: python:3.12-slim
+    port: 8501
+    replicas: 1
+    command:
+      - sh
+      - -c
+      - pip install -r requirements.txt && streamlit run dashboard/app.py --server.port 8501 --server.address 0.0.0.0
+  gateway:
+    name: sentinelai-gateway
+    image: python:3.12-slim
+    port: 8060
+    replicas: 2
+    command:
+      - sh
+      - -c
+      - pip install -r requirements.txt && uvicorn control_plane.main:app --host 0.0.0.0 --port 8060
+
+resources:
+  requests:
+    cpu: "250m"
+    memory: "256Mi"
+  limits:
+    cpu: "1000m"
+    memory: "1Gi"
+
+hpa:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 10
+  cpuUtilization: 70
+  excludeServices:
+    - dashboard-frontend
+    - sentinelai-gateway
+
+postgresql:
+  enabled: true
+  storage: 20Gi
+  image: postgres:16
+
+kafka:
+  enabled: true
+  image: confluentinc/cp-kafka:7.5.0
+  zookeeperImage: confluentinc/cp-zookeeper:7.5.0
+  storage: 50Gi
+
+vault:
+  enabled: true
+  address: http://sentinelai-vault:8200
+
+observability:
+  prometheus:
+    enabled: true
+  grafana:
+    enabled: true
+  opensearch:
+    enabled: true

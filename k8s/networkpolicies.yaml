@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: sentinelai-prod-deny-all
+  namespace: sentinelai-prod
+spec:
+  podSelector: {}
+  policyTypes:
+    - Ingress
+    - Egress
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: sentinelai-dev-deny-all
+  namespace: sentinelai-dev
+spec:
+  podSelector: {}
+  policyTypes:
+    - Ingress
+    - Egress

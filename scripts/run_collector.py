@@ -8,15 +8,12 @@ from sentinel_config import CONFIG
 
 def main() -> None:
     service = SentinelCollectorService()
-    startup_events = service.start()
-    if startup_events:
-        for event in startup_events:
-            print(f"[startup] {event['source']}: {event['message']}")
+    service.start()
 
     try:
         while True:
             batch = service.collect_once()
-            print(f"Collected {len(batch)} telemetry events")
+            print(f"Published {len(batch)} real telemetry events")
             time.sleep(CONFIG.poll_interval_seconds)
     except KeyboardInterrupt:
         print("Stopping SentinelAI collector...")

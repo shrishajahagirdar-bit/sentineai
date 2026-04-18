@@ -1,115 +1,142 @@
 {
-  "system": {
-    "login_time_patterns": {
-      "17": 1.0
+  "john.doe": {
+    "user": "john.doe",
+    "login_time_distribution": {
+      "8": 0.1667,
+      "9": 0.1667,
+      "10": 0.1667,
+      "14": 0.1667,
+      "15": 0.1667,
+      "16": 0.1667
     },
-    "process_usage_patterns": [],
-    "file_access_patterns": [
-      [
-        "c:\\users\\shrisha\\desktop\\hyd_3\\storage\\events\\telemetry.jsonl",
-        38251
-      ],
-      [
-        "c:\\users\\shrisha\\desktop\\hyd_3\\storage\\incidents\\incidents.jsonl",
-        28292
-      ],
-      [
-        "c:\\users\\shrisha\\desktop\\hyd_3\\collector\\state\\eventlog_offsets.json",
-        4
-      ],
-      [
-        "c:\\users\\shrisha\\desktop\\hyd_3\\collector\\state\\process_snapshot.json",
-        4
-      ],
-      [
-        "c:\\users\\shrisha\\desktop\\hyd_3\\collector\\state\\network_snapshot.json",
-        4
-      ],
-      [
-        "c:\\users\\shrisha\\desktop\\hyd_3\\.venv\\lib\\site-packages\\tornado\\speedups.pyd",
-        2
-      ],
-      [
-        "c:\\users\\shrisha\\desktop\\hyd_3\\.venv\\lib\\site-packages\\pil\\_imaging.cp312-win_amd64.pyd",
-        2
-      ],
-      [
-        "c:\\users\\shrisha\\desktop\\hyd_3\\dashboard\\__pycache__\\__init__.cpython-312.pyc.1753119301808",
-        2
-      ],
-      [
-        "c:\\users\\shrisha\\desktop\\hyd_3\\dashboard\\__pycache__\\app.cpython-312.pyc.1753117384624",
-        2
-      ],
-      [
-        "c:\\users\\shrisha\\desktop\\hyd_3\\storage\\baselines\\user_baselines.json",
-        2
-      ],
-      [
-        "c:\\users\\shrisha\\desktop\\hyd_3\\.venv\\lib\\site-packages\\google\\_upb\\_message.pyd",
-        1
-      ],
-      [
-        "c:\\users\\shrisha\\desktop\\hyd_3\\dashboard\\app.py",
-        1
-      ]
+    "avg_login_hour": 12.0,
+    "total_logins": 186,
+    "login_success_count": 180,
+    "login_failure_count": 6,
+    "failed_login_rate": 0.0323,
+    "logout_count": 0,
+    "known_devices": [
+      "LAPTOP-001"
     ],
-    "network_behavior_patterns": [
-      [
-        "150.171.27.11",
-        2
-      ],
-      [
-        "::1",
-        2
-      ],
-      [
-        "150.171.110.86",
-        2
-      ],
-      [
-        "150.171.110.81",
-        1
-      ],
-      [
-        "35.190.80.1",
-        1
-      ],
-      [
-        "57.155.142.113",
-        1
-      ]
+    "device_count": 1,
+    "devices": {
+      "LAPTOP-001": 1.0
+    },
+    "known_ips": [
+      "192.168.1.100"
     ],
-    "updated_at": "2026-04-17T18:01:10.367506"
+    "ip_count": 1,
+    "ips": {
+      "192.168.1.100": 1.0
+    },
+    "logon_types": {
+      "Interactive": 1.0
+    },
+    "updated_at": "2026-04-17T23:43:23.247164",
+    "events_analyzed": 186
   },
-  "LAPTOP-7D4NFLFI\\SHRISHA": {
-    "login_time_patterns": {
-      "17": 1.0
+  "jane.smith": {
+    "user": "jane.smith",
+    "login_time_distribution": {
+      "7": 0.2,
+      "8": 0.2,
+      "9": 0.2,
+      "13": 0.2,
+      "14": 0.2
     },
-    "process_usage_patterns": [
-      [
-        "searchprotocolhost.exe",
-        1
-      ],
-      [
-        "powershell.exe",
-        1
-      ],
-      [
-        "msedge.exe",
-        1
-      ],
-      [
-        "runtimebroker.exe",
-        1
-      ],
-      [
-        "conhost.exe",
-        1
-      ]
+    "avg_login_hour": 10.2,
+    "total_logins": 156,
+    "login_success_count": 150,
+    "login_failure_count": 6,
+    "failed_login_rate": 0.0385,
+    "logout_count": 0,
+    "known_devices": [
+      "WORKSTATION-02"
     ],
-    "file_access_patterns": [],
-    "network_behavior_patterns": [],
-    "updated_at": "2026-04-17T18:01:10.367506"
+    "device_count": 1,
+    "devices": {
+      "WORKSTATION-02": 1.0
+    },
+    "known_ips": [
+      "192.168.1.150"
+    ],
+    "ip_count": 1,
+    "ips": {
+      "192.168.1.150": 1.0
+    },
+    "logon_types": {
+      "Interactive": 1.0
+    },
+    "updated_at": "2026-04-17T23:43:23.247190",
+    "events_analyzed": 156
+  },
+  "bob.jones": {
+    "user": "bob.jones",
+    "login_time_distribution": {
+      "9": 0.2,
+      "10": 0.2,
+      "15": 0.2,
+      "16": 0.2,
+      "17": 0.2
+    },
+    "avg_login_hour": 13.4,
+    "total_logins": 156,
+    "login_success_count": 150,
+    "login_failure_count": 6,
+    "failed_login_rate": 0.0385,
+    "logout_count": 0,
+    "known_devices": [
+      "LAPTOP-003"
+    ],
+    "device_count": 1,
+    "devices": {
+      "LAPTOP-003": 1.0
+    },
+    "known_ips": [
+      "192.168.1.200"
+    ],
+    "ip_count": 1,
+    "ips": {
+      "192.168.1.200": 1.0
+    },
+    "logon_types": {
+      "Interactive": 1.0
+    },
+    "updated_at": "2026-04-17T23:43:23.247206",
+    "events_analyzed": 156
+  },
+  "alice.wang": {
+    "user": "alice.wang",
+    "login_time_distribution": {
+      "8": 0.25,
+      "9": 0.25,
+      "10": 0.25,
+      "11": 0.25
+    },
+    "avg_login_hour": 9.5,
+    "total_logins": 126,
+    "login_success_count": 120,
+    "login_failure_count": 6,
+    "failed_login_rate": 0.0476,
+    "logout_count": 0,
+    "known_devices": [
+      "DESKTOP-04"
+    ],
+    "device_count": 1,
+    "devices": {
+      "DESKTOP-04": 1.0
+    },
+    "known_ips": [
+      "192.168.1.250"
+    ],
+    "ip_count": 1,
+    "ips": {
+      "192.168.1.250": 1.0
+    },
+    "logon_types": {
+      "Interactive": 1.0
+    },
+    "updated_at": "2026-04-17T23:43:23.247218",
+    "events_analyzed": 126
   }
 }

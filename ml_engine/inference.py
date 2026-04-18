@@ -8,12 +8,15 @@ import numpy as np
 from core.safe_wrapper import safe_execution
 from core.transformers import normalize_ml_output
 from ml_engine.features import events_to_frame
+from observability.metrics import ML_INFERENCE_LATENCY, SERVICE_HEALTH
+from resiliency.circuit_breaker import CircuitBreaker
 from sentinel_config import CONFIG
 
 
 class LiveModelEngine:
     def __init__(self) -> None:
         self.package = self._load()
+        self.breaker = CircuitBreaker(failure_threshold=3, recovery_timeout_seconds=30.0)
 
     def _load(self) -> dict[str, Any] | None:
         if not CONFIG.model_store.exists():
@@ -47,7 +50,15 @@ class LiveModelEngine:
         )
 
     def predict(self, event: dict[str, Any]) -> tuple[float, float]:
+        with ML_INFERENCE_LATENCY.time():
+            return self._predict_internal(event)
+
+    def _predict_internal(self, event: dict[str, Any]) -> tuple[float, float]:
+        if not self.breaker.allow():
+            SERVICE_HEALTH.labels(service="ml-inference").set(0)
+            return self._heuristic_prediction(event), self._heuristic_anomaly(event)
         if self.package is None:
+            SERVICE_HEALTH.labels(service="ml-inference").set(0)
             return self._heuristic_prediction(event), self._heuristic_anomaly(event)
 
         frame = events_to_frame([event])
@@ -58,15 +69,20 @@ class LiveModelEngine:
 
         try:
             probability = float(classifier.predict_proba(frame)[0][1])
+            self.breaker.record_success()
         except Exception:
+            self.breaker.record_failure()
             probability = self._heuristic_prediction(event)
 
         try:
             raw_score = float(anomaly_model.decision_function(frame)[0])
             anomaly_score = float(np.clip(0.5 - raw_score, 0.0, 1.0))
+            self.breaker.record_success()
         except Exception:
+            self.breaker.record_failure()
             anomaly_score = self._heuristic_anomaly(event)
 
+        SERVICE_HEALTH.labels(service="ml-inference").set(1 if self.breaker.allow() else 0)
         return probability, anomaly_score
 
     @staticmethod

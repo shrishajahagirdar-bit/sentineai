@@ -6,6 +6,9 @@ from functools import wraps
 from pathlib import Path
 from typing import Any, Callable
 
+from observability.context import get_correlation_id, get_tenant_id
+from observability.logging import JsonLogFormatter
+
 
 LOG_PATH = Path(__file__).resolve().parents[1] / "logs" / "system_health.log"
 LOGGER_NAME = "sentinelai.system_health"
@@ -19,7 +22,7 @@ def _get_logger() -> logging.Logger:
     LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     logger.setLevel(logging.INFO)
     handler = logging.FileHandler(LOG_PATH, encoding="utf-8")
-    handler.setFormatter(logging.Formatter("%(message)s"))
+    handler.setFormatter(JsonLogFormatter())
     logger.addHandler(handler)
     logger.propagate = False
     return logger
@@ -37,10 +40,12 @@ def log_health_event(
         "event_type": event_type,
         "message": message,
         "context": context or {},
+        "correlation_id": get_correlation_id(),
+        "tenant_id": get_tenant_id(),
     }
     logger = _get_logger()
     log_method = getattr(logger, level.lower(), logger.info)
-    log_method(json.dumps(payload, default=str), exc_info=exc_info)
+    log_method(message, extra={"payload": payload}, exc_info=exc_info)
 
 
 def safe_execution(

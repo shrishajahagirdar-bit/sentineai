@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import ipaddress
+import socket
 from datetime import datetime, timezone
 from typing import Any
 
@@ -16,10 +17,11 @@ except ImportError:  # pragma: no cover
 class NetworkCollector:
     def __init__(self) -> None:
         self.previous = load_json(CONFIG.network_state, {})
+        self.hostname = socket.gethostname()
 
     def collect(self) -> list[dict[str, Any]]:
         if psutil is None:
-            return [self._status_event("warning", "psutil is not installed; network monitoring is unavailable.")]
+            return []
 
         events: list[dict[str, Any]] = []
         current: dict[str, dict[str, Any]] = {}
@@ -28,7 +30,7 @@ class NetworkCollector:
         try:
             connections = psutil.net_connections(kind="inet")
         except Exception as exc:
-            return [self._status_event("warning", f"Unable to enumerate network connections: {exc}")]
+            return []
 
         for conn in connections:
             try:
@@ -52,22 +54,51 @@ class NetworkCollector:
                 }
 
                 if identity not in self.previous and remote_ip:
+                    owner = "unknown"
+                    process_name = "unknown"
+                    try:
+                        if conn.pid:
+                            proc = psutil.Process(conn.pid)
+                            owner = proc.username() or "unknown"
+                            process_name = proc.name() or "unknown"
+                    except Exception:
+                        owner = "unknown"
+                        process_name = "unknown"
+
                     events.append(
                         {
                             "timestamp": timestamp,
-                            "source": "network_monitor",
+                            "hostname": self.hostname,
+                            "source": "network",
                             "event_type": "network_connection",
                             "status": "ok",
                             "pid": conn.pid or 0,
+                            "process_name": process_name,
                             "local_ip": local_ip,
                             "local_port": local_port,
                             "remote_ip": remote_ip,
                             "remote_port": remote_port,
                             "connection_state": conn.status,
-                            "user": "system",
+                            "user": owner,
                             "suspicious_port": remote_port in CONFIG.suspicious_ports or local_port in CONFIG.suspicious_ports,
                             "unusual_network_ip": self._is_unusual_ip(remote_ip),
                             "message": f"Connection observed to {remote_ip}:{remote_port}",
+                            "raw_log": (
+                                f"network_connection pid={conn.pid or 0} process={process_name} "
+                                f"local={local_ip}:{local_port} remote={remote_ip}:{remote_port} state={conn.status}"
+                            ),
+                            "parsed_fields": {
+                                "pid": conn.pid or 0,
+                                "process_name": process_name,
+                                "local_ip": local_ip,
+                                "local_port": local_port,
+                                "remote_ip": remote_ip,
+                                "remote_port": remote_port,
+                                "connection_state": conn.status,
+                            },
+                            "metadata": {
+                                "collector": "psutil.net_connections",
+                            },
                         }
                     )
             except Exception:
@@ -75,7 +106,7 @@ class NetworkCollector:
 
         self.previous = current
         save_json(CONFIG.network_state, current)
-        return events
+        return events[: CONFIG.max_network_events_per_cycle]
 
     @staticmethod
     def _is_unusual_ip(value: str) -> bool:
@@ -84,15 +115,3 @@ class NetworkCollector:
             return not (ip.is_private or ip.is_loopback or ip.is_link_local)
         except ValueError:
             return False
-
-    @staticmethod
-    def _status_event(level: str, message: str) -> dict[str, Any]:
-        return {
-            "timestamp": datetime.now(timezone.utc).isoformat(),
-            "source": "network_monitor",
-            "event_type": "collector_status",
-            "status": level,
-            "message": message,
-            "user": "system",
-        }
-

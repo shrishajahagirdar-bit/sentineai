@@ -1,0 +1,32 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: sentinelai-gateway
+  namespace: {{ .Values.global.namespace }}
+spec:
+  ingressClassName: {{ .Values.global.ingressClassName }}
+  rules:
+    - host: {{ .Values.gateway.host }}
+      http:
+        paths:
+          - path: /tenant/control-plane
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Values.services.gateway.name }}
+                port:
+                  number: {{ .Values.services.gateway.port }}
+          - path: /tenant/agents
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Values.services.gateway.name }}
+                port:
+                  number: {{ .Values.services.gateway.port }}
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Values.services.dashboardFrontend.name }}
+                port:
+                  number: {{ .Values.services.dashboardFrontend.port }}

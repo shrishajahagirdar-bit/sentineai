@@ -1,0 +1,67 @@
+{{- range $key, $svc := .Values.services }}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ $svc.name }}
+  namespace: {{ $.Values.global.namespace }}
+  labels:
+    app.kubernetes.io/name: {{ $svc.name }}
+    version: {{ default "stable" $svc.version }}
+spec:
+  replicas: {{ $svc.replicas }}
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: {{ $svc.name }}
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: {{ $svc.name }}
+        version: {{ default "stable" $svc.version }}
+    spec:
+      containers:
+        - name: {{ $svc.name }}
+          image: {{ $svc.image }}
+          imagePullPolicy: {{ $.Values.global.imagePullPolicy }}
+          workingDir: {{ default "/app" $svc.path }}
+          command: {{ toJson $svc.command }}
+          env:
+            {{- range $envKey, $envVal := $svc.env }}
+            - name: {{ $envKey }}
+              value: {{ $envVal | quote }}
+            {{- end }}
+          ports:
+            - containerPort: {{ $svc.port }}
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: {{ $svc.port }}
+            initialDelaySeconds: 20
+            periodSeconds: 15
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: {{ $svc.port }}
+            initialDelaySeconds: 30
+            periodSeconds: 20
+          resources:
+            requests:
+              cpu: {{ $.Values.resources.requests.cpu }}
+              memory: {{ $.Values.resources.requests.memory }}
+            limits:
+              cpu: {{ $.Values.resources.limits.cpu }}
+              memory: {{ $.Values.resources.limits.memory }}
+          volumeMounts:
+            - name: app-source
+              mountPath: /app
+      volumes:
+        - name: app-source
+          hostPath:
+            path: /srv/sentinelai
+            type: DirectoryOrCreate
+---
+{{- end }}

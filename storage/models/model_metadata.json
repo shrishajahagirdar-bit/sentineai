@@ -1,0 +1,86 @@
+{
+  "status": "trained",
+  "trained_at": "2026-04-17T19:53:12.552132+00:00",
+  "data_source": "telemetry",
+  "observed_events": 50,
+  "training_samples": 37,
+  "test_samples": 13,
+  "class_balance": {
+    "normal": 25,
+    "anomaly": 25
+  },
+  "dataset_check": {
+    "total_samples": 50,
+    "normal_count": 25,
+    "anomaly_count": 25,
+    "anomaly_ratio": 0.5,
+    "feature_shape": [
+      50,
+      26
+    ],
+    "valid": true,
+    "warning": null,
+    "error": null
+  },
+  "validation_report": {
+    "total_events": 1,
+    "normal_count": 0,
+    "anomaly_count": 1,
+    "event_type_distribution": {
+      "windows_event": 1
+    },
+    "label_distribution": {
+      "normal": 0,
+      "anomaly": 1
+    },
+    "imbalance_ratio": 0.0,
+    "valid": false,
+    "message": "Need at least 50 training events, found 1."
+  },
+  "model_performance": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "auc_roc": 1.0
+  },
+  "confusion_matrix": [
+    [
+      7,
+      0
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "feature_count": 26,
+  "features": [
+    "event_type_bucket",
+    "source_bucket",
+    "user_bucket",
+    "process_bucket",
+    "remote_ip_bucket",
+    "path_bucket",
+    "attack_type_bucket",
+    "hour",
+    "severity_score",
+    "failed_login_flag",
+    "privileged_logon_flag",
+    "anomaly_event_flag",
+    "unknown_process_flag",
+    "unusual_network_ip_flag",
+    "suspicious_port_flag",
+    "sensitive_file_flag",
+    "cpu_percent",
+    "memory_rss",
+    "local_port",
+    "remote_port",
+    "login_failure_count",
+    "packet_rate",
+    "bandwidth_usage",
+    "access_time_anomaly",
+    "privilege_level_change",
+    "risk_score"
+  ]
+}

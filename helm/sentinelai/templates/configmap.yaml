@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sentinelai-config
+  namespace: {{ .Values.global.namespace }}
+data:
+  KAFKA_BOOTSTRAP_SERVERS: "sentinelai-kafka:9092"
+  CONTROL_PLANE_URL: "http://{{ .Values.services.controlPlaneApi.name }}:{{ .Values.services.controlPlaneApi.port }}"
+  DASHBOARD_REFRESH_MS: "5000"
+  OTEL_SERVICE_NAME: "sentinelai"

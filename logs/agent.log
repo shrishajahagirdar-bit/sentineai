@@ -1,0 +1,11 @@
+{"timestamp": "2026-04-18T02:08:18", "level": "WARNING", "logger": "sentinelai.agent", "message": "confluent_kafka missing", "transport": "kafka"}
+{"timestamp": "2026-04-18T02:08:20", "level": "WARNING", "logger": "sentinelai.agent", "message": "confluent_kafka missing", "transport": "kafka"}
+{"timestamp": "2026-04-18T02:32:39", "level": "WARNING", "logger": "sentinelai.agent", "message": "confluent_kafka missing", "transport": "kafka"}
+{"timestamp": "2026-04-18T02:32:55", "level": "WARNING", "logger": "sentinelai.agent", "message": "confluent_kafka missing", "transport": "kafka"}
+{"timestamp": "2026-04-18T02:34:28", "level": "WARNING", "logger": "sentinelai.agent", "message": "confluent_kafka missing", "transport": "kafka"}
+{"timestamp": "2026-04-18T02:35:26", "level": "WARNING", "logger": "sentinelai.agent", "message": "confluent_kafka missing", "transport": "kafka"}
+{"timestamp": "2026-04-18T02:53:37", "level": "WARNING", "logger": "sentinelai.agent", "message": "confluent_kafka missing", "correlation_id": "88acc06b-80ad-42af-8836-0069230548f4", "tenant_id": null, "transport": "kafka"}
+{"timestamp": "2026-04-18T02:53:39", "level": "WARNING", "logger": "sentinelai.agent", "message": "confluent_kafka missing", "correlation_id": "c2f5fd6f-d647-4faf-b6b4-0c4a6b9795d5", "tenant_id": null, "transport": "kafka"}
+{"timestamp": "2026-04-18T02:54:13", "level": "WARNING", "logger": "sentinelai.agent", "message": "confluent_kafka missing", "correlation_id": "f8abc48f-251a-4295-8fc1-eb00a47cac58", "tenant_id": null, "transport": "kafka"}
+{"timestamp": "2026-04-18T03:02:53", "level": "WARNING", "logger": "sentinelai.agent", "message": "confluent_kafka missing", "correlation_id": "6f154558-27a8-4ca3-b6a9-ed8be4ccacc1", "tenant_id": null, "transport": "kafka"}
+{"timestamp": "2026-04-18T03:02:55", "level": "WARNING", "logger": "sentinelai.agent", "message": "confluent_kafka missing", "correlation_id": "5d3f909b-7707-49bd-b721-051f25f7e368", "tenant_id": null, "transport": "kafka"}

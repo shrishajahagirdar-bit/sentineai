@@ -1,0 +1,16 @@
+{{- range $key, $svc := .Values.services }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ $svc.name }}
+  namespace: {{ $.Values.global.namespace }}
+spec:
+  selector:
+    app.kubernetes.io/name: {{ $svc.name }}
+  ports:
+    - protocol: TCP
+      port: {{ $svc.port }}
+      targetPort: {{ $svc.port }}
+      name: http
+---
+{{- end }}

@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sentinelai-otel-config
+  namespace: sentinelai-prod
+data:
+  otel-collector-config.yaml: |
+    receivers:
+      otlp:
+        protocols:
+          grpc:
+          http:
+    exporters:
+      logging:
+    service:
+      pipelines:
+        traces:
+          receivers: [otlp]
+          exporters: [logging]

@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sentinelai-grafana
+  namespace: sentinelai-prod
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sentinelai-grafana
+  template:
+    metadata:
+      labels:
+        app: sentinelai-grafana
+    spec:
+      containers:
+        - name: grafana
+          image: grafana/grafana:11.1.4
+          ports:
+            - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sentinelai-grafana
+  namespace: sentinelai-prod
+spec:
+  selector:
+    app: sentinelai-grafana
+  ports:
+    - port: 3000
+      targetPort: 3000

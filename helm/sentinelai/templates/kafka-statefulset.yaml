@@ -1,0 +1,96 @@
+{{- if .Values.kafka.enabled }}
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: sentinelai-zookeeper
+  namespace: {{ .Values.global.namespace }}
+spec:
+  serviceName: sentinelai-zookeeper
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sentinelai-zookeeper
+  template:
+    metadata:
+      labels:
+        app: sentinelai-zookeeper
+    spec:
+      containers:
+        - name: zookeeper
+          image: {{ .Values.kafka.zookeeperImage }}
+          env:
+            - name: ZOOKEEPER_CLIENT_PORT
+              value: "2181"
+          ports:
+            - containerPort: 2181
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sentinelai-zookeeper
+  namespace: {{ .Values.global.namespace }}
+spec:
+  clusterIP: None
+  selector:
+    app: sentinelai-zookeeper
+  ports:
+    - port: 2181
+      targetPort: 2181
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: sentinelai-kafka
+  namespace: {{ .Values.global.namespace }}
+spec:
+  serviceName: sentinelai-kafka
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sentinelai-kafka
+  template:
+    metadata:
+      labels:
+        app: sentinelai-kafka
+    spec:
+      containers:
+        - name: kafka
+          image: {{ .Values.kafka.image }}
+          env:
+            - name: KAFKA_BROKER_ID
+              value: "1"
+            - name: KAFKA_ZOOKEEPER_CONNECT
+              value: sentinelai-zookeeper:2181
+            - name: KAFKA_LISTENERS
+              value: PLAINTEXT://0.0.0.0:9092
+            - name: KAFKA_ADVERTISED_LISTENERS
+              value: PLAINTEXT://sentinelai-kafka:9092
+            - name: KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR
+              value: "1"
+          ports:
+            - containerPort: 9092
+          volumeMounts:
+            - name: kafka-data
+              mountPath: /var/lib/kafka/data
+  volumeClaimTemplates:
+    - metadata:
+        name: kafka-data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: {{ .Values.kafka.storage }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sentinelai-kafka
+  namespace: {{ .Values.global.namespace }}
+spec:
+  clusterIP: None
+  selector:
+    app: sentinelai-kafka
+  ports:
+    - port: 9092
+      targetPort: 9092
+{{- end }}

@@ -9,7 +9,11 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import StreamingResponse
 
 from backend.config import settings
-from backend.models.schemas import AnalyzeRequest, FeedbackRequest, UserProfileResponse
+from backend.models.schemas import (
+    AnalyzeRequest,
+    FeedbackRequest,
+    UserProfileResponse,
+)
 from backend.services.data_access import (
     append_jsonl,
     dataframe_records,
@@ -23,12 +27,19 @@ from backend.services.risk_engine import RiskEngine
 from backend.services.ueba import UebaService, summarize_risk_factors
 from core.safe_wrapper import safe_execution
 from core.transformers import normalize_event, standardize_response
+from storage.replay import replay_incident_events, replay_last_events
+from collector.storage import read_jsonl
+from sentinel_config import CONFIG
 
 
 app = FastAPI(title="SentinelAI", version="1.0.0")
 model_registry = ModelRegistry()
 ueba_service = UebaService()
 risk_engine = RiskEngine(model_registry, ueba_service)
+
+# Include alert router
+from backend.api.alerts import router as alerts_router
+app.include_router(alerts_router)
 
 
 @app.get("/")
@@ -146,6 +157,51 @@ def attack_timeline(user_id: str | None = None, event_id: str | None = None, lim
         "success",
         data={"records": records},
         metadata={"count": len(records), "limit": limit},
+        error=None,
+    )
+
+
+@app.get("/incidents")
+@safe_execution(
+    default_factory=lambda: standardize_response("fallback", data={"records": []}, error="incident retrieval failed"),
+    operation="api_incidents",
+)
+def incidents(limit: int = 100) -> dict[str, Any]:
+    records = read_jsonl(CONFIG.incident_case_store, limit=limit)
+    return standardize_response(
+        "success",
+        data={"records": records},
+        metadata={"count": len(records), "limit": limit},
+        error=None,
+    )
+
+
+@app.get("/replay/events")
+@safe_execution(
+    default_factory=lambda: standardize_response("fallback", data={"records": []}, error="event replay failed"),
+    operation="api_replay_events",
+)
+def replay_events(limit: int = 100) -> dict[str, Any]:
+    records = replay_last_events(limit=limit)
+    return standardize_response(
+        "success",
+        data={"records": records},
+        metadata={"count": len(records), "limit": limit},
+        error=None,
+    )
+
+
+@app.get("/replay/incident/{incident_id}")
+@safe_execution(
+    default_factory=lambda: standardize_response("fallback", data={"records": []}, error="incident replay failed"),
+    operation="api_replay_incident",
+)
+def replay_incident(incident_id: str) -> dict[str, Any]:
+    records = replay_incident_events(incident_id)
+    return standardize_response(
+        "success",
+        data={"records": records},
+        metadata={"count": len(records), "incident_id": incident_id},
         error=None,
     )
 

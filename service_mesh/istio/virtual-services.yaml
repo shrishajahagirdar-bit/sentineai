@@ -1,0 +1,45 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: control-plane-api
+  namespace: sentinelai-prod
+spec:
+  hosts:
+    - control-plane-api
+  http:
+    - retries:
+        attempts: 3
+        perTryTimeout: 2s
+      timeout: 5s
+      route:
+        - destination:
+            host: control-plane-api
+            subset: stable
+          weight: 90
+        - destination:
+            host: control-plane-api
+            subset: canary
+          weight: 10
+---
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: ml-inference
+  namespace: sentinelai-prod
+spec:
+  hosts:
+    - ml-inference
+  http:
+    - retries:
+        attempts: 2
+        perTryTimeout: 2s
+      timeout: 4s
+      route:
+        - destination:
+            host: ml-inference
+            subset: stable
+          weight: 85
+        - destination:
+            host: ml-inference
+            subset: canary
+          weight: 15
